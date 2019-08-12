@@ -1,0 +1,42 @@
+{
+  "revision_id": "0a82f0c7e8aad317820a49009252fbb354b806abccc299050ed39056f401c541",
+  "name": "my_httpd",
+  "run_list": [
+    "recipe[my_httpd::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "my_httpd": {
+      "version": "0.1.0",
+      "identifier": "dc5a4be9ea348896d12f58d197d41d62855f7bf6",
+      "dotted_decimal_identifier": "62023776969831560.42451247790397396.32308981627894",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": null,
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "my_httpd",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "my_httpd (0.1.0)": [
+
+      ]
+    }
+  }
+}
